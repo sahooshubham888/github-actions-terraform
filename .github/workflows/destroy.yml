@@ -68,10 +68,10 @@ jobs :
       - name: terraform init
 
         run: |
-          cd module
+          cd s3
           terraform init -reconfigure
       - name: terraform destroy
 
         run: |
-          cd module
+          cd s3
           terraform destroy -auto-approve

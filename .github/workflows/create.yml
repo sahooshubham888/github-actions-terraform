@@ -71,17 +71,17 @@ jobs :
       - name: terraform init
 
         run: |
-          cd module
+          cd s3
           terraform init -reconfigure
       - name: terraform plan
 
         run: |
-          cd module
+          cd s3
           terraform plan
       - name: terraform apply
 
         run: |
-          cd module
+          cd s3
           terraform apply -auto-approve
 
 
