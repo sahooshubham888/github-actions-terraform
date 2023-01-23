@@ -22,7 +22,7 @@ on :
 
 env :
 
-  bucket : sbm-bucket
+  bucket : sbms-bucket
 
   tfstate_file : terraform.tfstate
 
